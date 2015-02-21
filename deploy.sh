@@ -1,0 +1,1 @@
+rsync --update --delete --recursive -f"- .git/" dist/ $HOME/src/lethee.github.io
