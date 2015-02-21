@@ -7,3 +7,8 @@
     vi .gitignore
     vi .jshintrc
 
+## Init contents
+
+    vi app/layouts/default.html.hbs
+    vi app/root/index.html.hbs
+    vi app/root/index.html.hbs.json
