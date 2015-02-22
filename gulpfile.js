@@ -1,11 +1,14 @@
 var gulp = require('gulp');
 var Handlebars = require('handlebars');
-require('gulp-makdoc');
+var makdoc = require('gulp-makdoc');
+var pkg = require('./package.json');
+
+makdoc.templateData({package:pkg});
 
 gulp.task('makdoc:done:after', function(done) {
     gulp.src('bower_components/**/*.{js,css,map}')
         .pipe(gulp.dest('dist/'));
-   done();
+    done();
 });
 
 Handlebars.registerHelper('_summary', function(html) {
