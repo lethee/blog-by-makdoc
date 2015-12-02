@@ -1,9 +1,6 @@
 var gulp = require('gulp');
 var Handlebars = require('handlebars');
-var makdoc = require('gulp-makdoc');
-var pkg = require('./package.json');
-
-makdoc.templateData({package:pkg});
+var makdoc = require('gulp-makdoc')(gulp, Handlebars);
 
 gulp.task('makdoc:done:after', function(done) {
     gulp.src('bower_components/**/*.{js,css,map}')
