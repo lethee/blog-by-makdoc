@@ -1,5 +1,16 @@
 # Blog
 
+## Clone
+
+    git clone git@github.com:lethee/blog-by-makdoc.git
+    cd blog-by-makdoc
+    npm install -g gulp
+    npm install -g bower
+    npm install
+    bower install
+    gulp --tasks
+    gulp server
+
 ## Init
 
     npm init

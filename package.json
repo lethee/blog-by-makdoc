@@ -1,19 +1,20 @@
 {
-  "title": "Sean Lee",
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "## Init",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Seonghwan Lee",
   "dependencies": {
     "gulp": "^3.8.11",
     "handlebars": "^4.0.0"
   },
+  "description": "Lethee Blog by MakDoc",
   "devDependencies": {
     "gulp-makdoc": "^0.2.0"
-  }
+  },
+  "license": "ISC",
+  "name": "lethee-blog-by-makdoc",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lethee/blog-by-makdoc.git"
+  },
+  "title": "Lethee Blog",
+  "version": "1.0.1"
 }
